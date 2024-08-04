@@ -1,0 +1,525 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css);
+@font-face {
+  font-family: "GOTHAM-BLACK";
+  src: url(/fonts/GOTHAM-BLACK.ttf?8c419f68c27774b4d63c14e3ffeb9f28) format("truetype");
+}
+@font-face {
+  font-family: "GOTHAM-BOLD";
+  src: url(/fonts/GOTHAM-BOLD.ttf?e7e90266d66863fde0092b8a980abf92) format("truetype");
+}
+@font-face {
+  font-family: "GOTHAM-LIGHT";
+  src: url(/fonts/GOTHAM-LIGHT.ttf?11bddc203c560232dca3227a5b00c514) format("truetype");
+}
+@font-face {
+  font-family: "GOTHAM-MEDIUM";
+  src: url(/fonts/GOTHAM-MEDIUM.ttf?ba4f661aec947b576e5755f93c0669ba) format("truetype");
+}
+body {
+  overflow-x: hidden;
+}
+
+.body, div, span, p, a {
+  font-family: "GOTHAM-LIGHT";
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "GOTHAM-BLACK";
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #ffffff;
+  box-sizing: border-box;
+  min-width: 100%;
+  z-index: 1000;
+}
+header .container #navigation-bar .logo {
+  padding-left: 30px;
+}
+header .container #navigation-bar .logo a {
+  cursor: pointer;
+}
+header .container #navigation-bar .logo a #img-logo {
+  width: 80px;
+}
+header .container #navigation-bar nav {
+  padding: 10px;
+}
+header .container #navigation-bar nav ul {
+  font-family: GOTHAM-LIGHT;
+  list-style-type: none;
+}
+header .container #navigation-bar nav ul li {
+  display: inline-flex;
+}
+header .container #navigation-bar nav ul li a {
+  padding: 30px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+header .container #navigation-bar nav ul li a.active {
+  color: #D81A28;
+  font-family: "GOTHAM-BOLD";
+}
+header .container #navigation-bar nav ul li .btn-link {
+  background: #D81A28;
+  outline-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  width: 200px;
+  padding: 10px;
+  font-family: "GOTHAM-BOLD";
+  border-radius: 100px;
+}
+
+footer {
+  position: relative;
+  background: #EFEFEF;
+}
+footer .row {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+footer .logo {
+  width: 100px;
+}
+footer .footer-links li {
+  list-style-type: none;
+  line-height: 1.5em;
+}
+footer .footer-links li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+footer .footer-links li a.active {
+  color: #D81A28;
+  font-family: "GOTHAM-BOLD";
+}
+footer .footer-acc li {
+  list-style-type: none;
+  line-height: 2em;
+}
+footer .footer-acc li i {
+  padding-right: 10px;
+  font-size: 16px;
+}
+footer .footer-acc li span {
+  font-size: 16px;
+}
+footer .copyright {
+  position: absolute;
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  bottom: 0;
+}
+footer .copyright span {
+  font-family: "GOTHAM-BOLD";
+  color: #D81A28;
+  font-size: 16px;
+}
+
+.home {
+  position: relative;
+  top: 150px;
+  left: 0;
+}
+.home .container {
+  overflow-x: hidden;
+}
+.home .container .row .header span {
+  font-family: "GOTHAM-BLACK";
+  font-size: 80px;
+  color: #D81A28;
+  line-height: 90px;
+}
+.home .container .row .h-desc {
+  position: relative;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.home .container .row .play-btn {
+  position: relative;
+  margin-top: 30px;
+}
+.home .container .row .play-btn a {
+  background: #444444;
+  border-radius: 10px;
+  outline-style: none;
+}
+.home .container .row .h-mock-banner {
+  position: relative;
+}
+.home .container .row .h-mock-banner img {
+  width: 90%;
+}
+.home .container .row .card {
+  margin-top: 30px;
+  height: 400px;
+  width: 300px;
+  border-radius: 40px;
+  padding: 30px;
+  background: #EFEFEF;
+  border: 0;
+  font-size: 20px;
+}
+.home .container .row .card .card-text {
+  margin-top: 30px;
+}
+.home .container .row .card object {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home .container .row .card-1 object {
+  width: 90px;
+}
+.home .container .row .card-2 object {
+  width: 110px;
+}
+.home .container .row .card-3 object {
+  width: 125px;
+}
+.home .container .section-2 {
+  margin-top: 100px;
+}
+.home .container-fluid .section-3 {
+  position: relative;
+  top: 100px;
+}
+.home .container-fluid .section-3 .col-6 img {
+  position: relative;
+  left: -390px;
+  top: 50%;
+  width: 1000px;
+  transform: translateY(-50%);
+}
+.home .container-fluid .section-4 {
+  position: relative;
+  top: 100px;
+}
+.home .container-fluid .section-4 img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1000px;
+}
+.home .container-fluid .section-4 .desc {
+  position: relative;
+  left: 50%;
+  margin-bottom: 30px;
+  transform: translateX(-50%);
+}
+.home .container-fluid .section-4 .desc .card {
+  border: 0;
+  overflow: hidden;
+  width: 500px;
+}
+.home .container-fluid .section-4 .desc iframe {
+  border-radius: 40px;
+  width: auto;
+}
+.home .section-5 {
+  position: relative;
+  margin-top: 100px;
+  background: #444444;
+}
+.home .section-5 p {
+  color: #ffffff;
+}
+.home .section-5 .card {
+  position: relative;
+  height: 477px;
+  width: 350px;
+  border-radius: 30px;
+  background: #ffffff;
+  margin: 30px;
+}
+.home .section-5 .card img {
+  width: 200px;
+}
+.home .section-5 .card a {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 60px;
+  color: #D81A28;
+  text-decoration: none;
+  font-family: "GOTHAM-BOLD";
+  font-size: 14px;
+}
+.home .section-6 {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.home .section-6 img {
+  width: 1000px;
+}
+.home .section-7 {
+  position: relative;
+  background: #444444;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 150px;
+}
+.home .section-7 .card {
+  margin-top: 30px;
+  height: 450px;
+  width: 350px;
+  border-radius: 40px;
+  padding: 30px;
+  background: #EFEFEF;
+  border: 0;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.home .section-7 .card .card-text {
+  margin-top: 30px;
+}
+.home .section-7 .card object {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home .section-7 .card strong {
+  font-family: "GOTHAM-BOLD";
+}
+.home .section-7 .card ul.plan-desc {
+  list-style-type: none;
+}
+.home .section-7 .card button {
+  outline-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  width: 240px;
+  padding: 20px;
+  font-family: "GOTHAM-BOLD";
+  border-radius: 100px;
+}
+.home .section-7 .card .free-btn {
+  background: #D81A28;
+}
+.home .section-7 .card .installment-btn {
+  background: #E7971F;
+}
+.home .section-7 .card .premium-btn {
+  background: #249F30;
+}
+.home .section-7 .card .plan-btn {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home .section-7 .card h1 span {
+  font-family: "GOTHAM-LIGHT";
+  font-size: 20px;
+}
+
+.about-us {
+  position: relative;
+  left: 0;
+}
+.about-us .banner {
+  position: relative;
+  margin-top: 100px;
+  background: #444444;
+  display: flex;
+  align-items: center;
+  height: 500px;
+  background-image: url("/assets/img/banner-1.png");
+  background-position: center;
+}
+.about-us .banner p {
+  color: #ffffff;
+}
+.about-us .company-info {
+  position: relative;
+  margin-top: 150px;
+  background: #444444;
+  display: flex;
+  align-items: center;
+  height: 600px;
+  padding: 20px;
+  overflow: visible;
+}
+.about-us .company-info p {
+  color: #ffffff;
+}
+.about-us .company-info .logo {
+  width: 80px;
+}
+.about-us .company-info .phones {
+  display: flex;
+  position: absolute;
+}
+.about-us .company-info img {
+  width: 800px;
+}
+.about-us .section-3 {
+  position: relative;
+  top: 100px;
+  height: 1000px;
+}
+.about-us .section-3 .col-6 img {
+  position: relative;
+  left: -390px;
+  top: 50%;
+  width: 1000px;
+  transform: translateY(-50%);
+}
+.about-us .container-fluid {
+  overflow-x: hidden;
+}
+.about-us .container-fluid .row .header span {
+  font-family: "GOTHAM-BLACK";
+  font-size: 80px;
+  color: #D81A28;
+  line-height: 90px;
+}
+.about-us .container-fluid .row .h-desc {
+  position: relative;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.about-us .container-fluid .row .play-btn {
+  position: relative;
+  margin-top: 30px;
+}
+.about-us .container-fluid .row .play-btn a {
+  background: #444444;
+  border-radius: 10px;
+  outline-style: none;
+}
+.about-us .container-fluid .row .h-mock-banner {
+  position: relative;
+}
+.about-us .container-fluid .row .h-mock-banner img {
+  width: 90%;
+}
+.about-us .container-fluid .row .card {
+  margin-top: 30px;
+  width: 350px;
+  border-radius: 40px;
+  background: #EFEFEF;
+  border: 0;
+  overflow: hidden;
+}
+.about-us .container-fluid .row .card-1 object {
+  width: 90px;
+}
+.about-us .container-fluid .row .card-2 object {
+  width: 110px;
+}
+.about-us .container-fluid .row .card-3 object {
+  width: 125px;
+}
+.about-us .container-fluid .section-2 {
+  margin-top: 100px;
+}
+
+.about-us {
+  position: relative;
+  left: 0;
+}
+.about-us .banner2 {
+  position: relative;
+  margin-top: 100px;
+  background: #444444;
+  display: flex;
+  align-items: center;
+  height: 500px;
+  background-image: url("/assets/img/banner-2.png");
+  background-position: right;
+}
+.about-us .banner2 p {
+  color: #ffffff;
+}
+.about-us .terms-and-condition {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.about-us .terms-and-condition .list-group-item {
+  z-index: 2;
+  border-width: 0;
+  padding: 2px;
+  font-size: 16px;
+}
+.about-us .terms-and-condition .list-group-item.active {
+  z-index: 2;
+  color: unset;
+  font-family: "GOTHAM-BOLD";
+  background-color: unset;
+  border-width: 0;
+  border-color: unset;
+}
+.about-us .terms-and-condition .details {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.about-us .terms-and-condition .details p {
+  font-size: 16px;
+}
+.about-us .terms-and-condition .details strong {
+  font-size: 16px;
+}
+.about-us .container-fluid {
+  overflow-x: hidden;
+}
+.about-us .container-fluid .row .header span {
+  font-family: "GOTHAM-BLACK";
+  font-size: 80px;
+  color: #D81A28;
+  line-height: 90px;
+}
+.about-us .container-fluid .row .h-desc {
+  position: relative;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.about-us .container-fluid .row .play-btn {
+  position: relative;
+  margin-top: 30px;
+}
+.about-us .container-fluid .row .play-btn a {
+  background: #444444;
+  border-radius: 10px;
+  outline-style: none;
+}
+.about-us .container-fluid .row .h-mock-banner {
+  position: relative;
+}
+.about-us .container-fluid .row .h-mock-banner img {
+  width: 90%;
+}
+.about-us .container-fluid .row .card {
+  margin-top: 30px;
+  width: 350px;
+  border-radius: 40px;
+  background: #EFEFEF;
+  border: 0;
+  overflow: hidden;
+}
+.about-us .container-fluid .row .card-1 object {
+  width: 90px;
+}
+.about-us .container-fluid .row .card-2 object {
+  width: 110px;
+}
+.about-us .container-fluid .row .card-3 object {
+  width: 125px;
+}
+.about-us .container-fluid .section-2 {
+  margin-top: 100px;
+}

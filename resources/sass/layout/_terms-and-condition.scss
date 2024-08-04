@@ -1,0 +1,136 @@
+.about-us {
+    position: relative;
+    left: 0;
+
+            
+    .banner2 {
+        position: relative;
+        margin-top: 100px;
+        background: #444444;
+        display: flex;
+        align-items: center;
+        height: 500px;
+        background-image: url('/assets/img/banner-2.png');
+        background-position: right;
+
+        p {
+            color: $white;
+        }
+    }
+
+    .terms-and-condition {
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+
+
+        
+        .list-group-item {
+            z-index: 2;
+            border-width: 0;
+            padding: 2px;
+            font-size: 16px;
+        }
+
+        .list-group-item.active {
+            z-index: 2;
+            color: unset;
+            font-family: "GOTHAM-BOLD";
+            background-color: unset;
+            border-width: 0;
+            border-color: unset;
+        }
+
+        .details {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .details p {
+            font-size: 16px;
+        }
+        .details strong {
+            font-size: 16px;
+        }
+    }
+
+    .container-fluid {
+        overflow-x: hidden;
+
+        .row {
+            
+            .header {
+                span {
+                    font-family: 'GOTHAM-BLACK';
+                    font-size: 80px;
+                    color: $red;
+                    line-height: 90px;
+                }
+            }
+
+            .h-desc {
+                position: relative;
+                margin-top: 30px;
+                font-size: 20px;
+            }
+
+            .play-btn {
+                position: relative;
+                margin-top: 30px;
+
+                a {
+                    background: #444444;
+                    border-radius: 10px;
+                    outline-style: none;
+
+                }
+            }
+
+            .h-mock-banner {
+                position: relative;
+
+                img {
+                    width: 90%;
+                }
+            }
+
+            .card {
+                margin-top: 30px;
+                width: 350px;
+                border-radius: 40px;
+                background: $grey;
+                border: 0;
+                overflow: hidden;
+            }
+
+            .card-1 {
+                object {
+                    width: 90px;
+                }
+            }
+
+            .card-2 {
+                object {
+                    width: 110px;
+                }
+            }
+
+            .card-3 {
+                object {
+                    width: 125px;
+                }
+            }
+
+        }
+
+        .section-2 {
+            margin-top: 100px;
+        }
+
+    }
+
+
+}

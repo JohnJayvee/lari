@@ -1,0 +1,64 @@
+footer {
+    position: relative;
+    background: #EFEFEF;
+
+    .row{
+        padding-top: 60px;
+        padding-bottom: 100px;  
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .footer-links {
+        li {
+            list-style-type: none;
+            line-height: 1.5em;
+
+            a {
+                text-decoration: none;
+                color: $black;
+                font-size: 16px;
+            }
+
+            a.active {
+                color: #D81A28;
+                font-family: "GOTHAM-BOLD";
+            }
+        }
+    }
+
+    .footer-acc {
+
+        li {
+            list-style-type: none;
+            line-height: 2em;
+
+            i {
+                padding-right: 10px;
+                font-size: 16px;
+            }
+
+            
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .copyright {
+        position: absolute;
+        background: $white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        bottom: 0;
+
+        span {
+            font-family: "GOTHAM-BOLD";
+            color: $red;
+            font-size: 16px;
+        }
+    }
+
+}

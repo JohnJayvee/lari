@@ -1,0 +1,35 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@font-face {
+    font-family: 'GOTHAM-BLACK';
+    src: url('../fonts/GOTHAM-BLACK.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GOTHAM-BOLD';
+    src: url('../fonts/GOTHAM-BOLD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GOTHAM-LIGHT';
+    src: url('../fonts/GOTHAM-LIGHT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GOTHAM-MEDIUM';
+    src: url('../fonts/GOTHAM-MEDIUM.ttf') format('truetype');
+}
+
+$orange           :#E7431F;
+$yellow           :#E7971F;
+$green            :#249F30;
+$red              :#D81A28;
+$white            :#ffffff;
+$grey             :#EFEFEF;
+$black            :#000000;
+
+@import "components/_core";
+@import "components/_header";
+@import "components/_footer";
+@import "layout/_home";
+@import "layout/_about-us";
+@import "layout/_terms-and-condition";

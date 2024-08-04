@@ -1,0 +1,66 @@
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: $white;
+    box-sizing: border-box;
+    min-width: 100%;
+    z-index: 1000;
+    // box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
+
+    .container {
+
+        #navigation-bar {
+
+            .logo {
+                padding-left: 30px;
+
+                a {
+                    cursor: pointer;
+
+                    #img-logo {
+                        width: 80px;
+                    }
+                }
+            }
+
+            nav {
+                padding: 10px;
+
+                ul {
+                    font-family: GOTHAM-LIGHT;
+                    list-style-type: none;
+
+                    li {
+                        display: inline-flex;
+
+                        a {
+                            padding: 30px;
+                            text-decoration: none;
+                            color: $black;
+                            font-size: 16px;
+                        }
+
+                        a.active {
+                            color: $red;
+                            font-family: 'GOTHAM-BOLD';
+                        }
+
+                        .btn-link {
+                            background: $red;
+                            outline-style: none;
+                            text-decoration: none;
+                            color: $white;
+                            width: 200px;
+                            padding: 10px;
+                            font-family: 'GOTHAM-BOLD';
+                            border-radius: 100px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
