@@ -61,6 +61,9 @@ Route::prefix('terms-and-condition')->group(function () {
 });
 
 Route::get('/contact-us', [ContactUsController::class, 'show'])->name('contact-us');
+Route::post('/contact-us-store', [ContactUsController::class, 'store'])->name('try1');
+
+
 Route::get('/faqs', [FaqsController::class, 'show'])->name('faqs');
 
 Route::get('/signin', [SignInController::class, 'signin'])->name('signin');
