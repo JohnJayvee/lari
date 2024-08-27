@@ -9,7 +9,9 @@ class ContactUsController extends Controller
 {
     public function show(Request $request)
     {
-        return view('website.pages.contact-us');
+        // return view('website.pages.contact-us');
+        return view('website.templates.master');
+
     }
 
     public function store(Request $request)
