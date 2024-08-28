@@ -16,7 +16,7 @@
 
                                 <!-- Login Form -->
                                 <div class="row justify-content-center">
-                                    <div class="col-md-6">
+                                    <div class="col-lg-6 col-md-8 col-sm-10">
                                         <form method="POST" action="{{ route('try') }}">
                                             @csrf
 
@@ -45,6 +45,13 @@
                                             <button type="submit"
                                                 class="btn btn-danger btn-block rounded-pill">Login</button>
                                         </form>
+
+                                        <!-- Sign Up Section -->
+                                        <div class="text-center mt-4">
+                                            <p class="mb-0">Don't have an account?</p>
+                                            <a href="{{ route('signup') }}"
+                                                class="btn btn-outline-danger rounded-pill mt-2">Sign Up</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
