@@ -36,7 +36,7 @@
 
         <div class="row">
             <div class="col-12 d-flex justify-content-center align-items-center mt-2">
-                <span>ⓒ 2024 LARI. All rights reserved.</span>
+                <span>&copy; 2024 LARI. All rights reserved.</span>
             </div>
         </div>
     </div>
