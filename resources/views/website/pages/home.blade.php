@@ -127,7 +127,7 @@
                             </div>
 
                             {{-- sponsors --}}
-                            <div class="row p-5 section-5 align-items-center">
+                            {{-- <div class="row p-5 section-5 align-items-center">
                                 <div class="col-lg-4 col-md-12 text-center text-lg-left p-3 mt-3">
                                     <h1 style="color: #FFFFFF;">Trusted<br>Partnership</h1>
                                     <p>Your support and partnership played a key role in this success, and we appreciate
@@ -146,7 +146,7 @@
                                         <a href="#">View More</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
 
                         </div>
 
@@ -176,7 +176,7 @@
 
                         <div class="container-fluid">
                             {{-- plans --}}
-                            <div class="row section-7">
+                            {{-- <div class="row section-7">
                                 <div class="col-12 text-center text-white mb-3">
                                     <h1>Subscription Plans</h1>
                                     <p>Choose a plan that works best for you.</p>
@@ -200,7 +200,7 @@
                                         </div>
                                     </div>
                                 @endforeach
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
