@@ -142,8 +142,11 @@
                                 href="{{ route('contact-us') }}">Contact Us</a></li>
                         <li><a class="nav-link {{ request()->route()->named('faqs') ? 'active' : '' }}"
                                 href="{{ route('faqs') }}">FAQ's</a></li>
-                        <li><a class="nav-link {{ request()->route()->named('signin') ? 'active' : '' }}"
-                                href="{{ route('signin') }}" type="button">Sign In</a></li>
+                        <li>
+                            <a class="btn btn-danger rounded-pill text-white fw-bolder" href="{{ route('signin') }}"
+                                type="button">Sign
+                                In</a>
+                        </li>
                         {{-- <li><a class="btn btn-link {{ request()->route()->named('signin') ? 'active' : '' }}"
                                 href="{{ route('signin') }}" type="button">Sign In</a></li> --}}
                     </ul>
